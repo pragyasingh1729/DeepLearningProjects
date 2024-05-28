@@ -47,6 +47,9 @@ st.title('Plant Disease Classifier 🍀🍂 ')
 
 uploaded_image = st.file_uploader("Upload an image...", type=["jpg", "jpeg", "png"])
 
+#These columns serve solely for presentation purposes. 
+#The first column displays the resized image in the Streamlit interface, while the other column presents the inference results based on the model
+
 if uploaded_image is not None:
     image = Image.open(uploaded_image)
     col1, col2 = st.columns(2)
