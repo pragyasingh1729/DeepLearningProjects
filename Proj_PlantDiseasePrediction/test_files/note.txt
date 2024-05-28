@@ -1,3 +1,0 @@
-To open the remote tab for the streamlit, use the following command:
-
- streamlit run main.py 
